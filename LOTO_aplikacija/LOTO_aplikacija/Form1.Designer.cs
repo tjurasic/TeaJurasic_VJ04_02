@@ -127,6 +127,7 @@
             this.btnUplati.TabIndex = 1;
             this.btnUplati.Text = "Uplati";
             this.btnUplati.UseVisualStyleBackColor = true;
+            this.btnUplati.Click += new System.EventHandler(this.btnUplati_Click);
             // 
             // groupBoxDobitni
             // 
@@ -208,6 +209,7 @@
             this.btnOdigraj.TabIndex = 3;
             this.btnOdigraj.Text = "Odigraj";
             this.btnOdigraj.UseVisualStyleBackColor = true;
+            this.btnOdigraj.Click += new System.EventHandler(this.btnOdigraj_Click);
             // 
             // lblNatpis
             // 
@@ -243,6 +245,7 @@
             this.Name = "FrmLoto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOTO 7/39";
+            this.Load += new System.EventHandler(this.FrmLoto_Load);
             this.groupBoxUplaceni.ResumeLayout(false);
             this.groupBoxUplaceni.PerformLayout();
             this.groupBoxDobitni.ResumeLayout(false);
